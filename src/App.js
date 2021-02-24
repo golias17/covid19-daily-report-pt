@@ -78,11 +78,11 @@ function App() {
 							)}
 							{text(
 								'Total de Casos Recuperados:',
-								data[data.length - 2][11],
-								data[data.length - 2][11] - data[data.length - 3][11],
+								data[data.length - 2][12],
+								data[data.length - 2][12] - data[data.length - 3][12],
 								(
-									((data[data.length - 2][11] - data[data.length - 3][11]) /
-										data[data.length - 2][11]) *
+									((data[data.length - 2][12] - data[data.length - 3][12]) /
+										data[data.length - 2][12]) *
 									100
 								).toFixed(2)
 							)}
